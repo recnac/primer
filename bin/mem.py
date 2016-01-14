@@ -1,6 +1,6 @@
 import urllib.request
-#baseurl = "http://superunicorn.mybluemix.net"
-baseurl = "http://127.0.0.1:8080"
+baseurl = "http://superunicorn.mybluemix.net"
+#baseurl = "http://127.0.0.1:8080"
 
 for j in range(0,100): #100 prime numbers
 	p = int(urllib.request.urlopen(baseurl+"/getjob").read())
