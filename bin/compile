@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 echo "###Worker Test###"
-python3 mem.py
+python3 /tmp/buildpacks/memtest/bin/mem.py
 exit 1
 
