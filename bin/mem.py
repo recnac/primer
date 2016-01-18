@@ -1,8 +1,8 @@
-import urllib.request, time
+import urllib.request, time, hashlib
 baseurl = "http://superunicorn.mybluemix.net"
 #baseurl = "http://127.0.0.1:8080"
 
-appID = str(time.time())
+appID = hashlib.sha224(str(time.time()).hexdigest()[-6:]
 
 while True:
 	urllib.request.urlopen(baseurl+"/alive?appID=" + appID)
