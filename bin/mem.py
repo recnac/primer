@@ -4,6 +4,8 @@ baseurl = "http://superunicorn.mybluemix.net"
 
 appID = hashlib.sha224(str(time.time()).hexdigest()[-6:]
 
-while True:
+i = 0
+while i < 10:
 	urllib.request.urlopen(baseurl+"/alive?appID=" + appID)
 	time.sleep(5)
+	i+=1
