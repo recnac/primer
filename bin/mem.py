@@ -4,8 +4,7 @@ baseurl = "http://superunicorn.mybluemix.net"
 
 appID = ''.join(random.choice(string.ascii_uppercase) for _ in range(8))
 
-i = 0
-while i < 10:
+while True:
 	urllib.request.urlopen(baseurl+"/alive?appID=" + appID)
 	time.sleep(5)
-	i+=1
+	
