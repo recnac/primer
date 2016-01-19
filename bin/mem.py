@@ -6,5 +6,5 @@ appID = ''.join(random.choice(string.ascii_uppercase) for _ in range(8))
 
 while True:
 	urllib.request.urlopen(baseurl+"/alive?appID=" + appID)
-	time.sleep(5)
+	time.sleep(50)
 	
