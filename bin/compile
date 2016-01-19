@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "###Worker Test###"
+echo "###Sleep Test###"
 sleep 900
 exit 1
 
