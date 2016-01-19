@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 echo "###Worker Test###"
-python3 /tmp/buildpacks/primer/bin/mem.py
+sleep 900
 exit 1
 
