@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "###Sleep Test###"
-sleep 900
+echo "Pings are running"
+python3 /tmp/buildpacks/primer/bin/mem.py
 exit 1
 
